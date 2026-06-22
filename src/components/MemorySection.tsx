@@ -29,7 +29,7 @@ const monuments = [
 
 export default function MemorySection() {
   return (
-    <section className="relative bg-neutral-950 py-24 md:py-32">
+    <section id="memory" className="relative bg-neutral-950 py-24 md:py-32">
       <div className="container mx-auto px-8 md:px-16">
         <div className="mb-16 max-w-3xl">
           <p className="text-sm uppercase tracking-[0.3em] text-white/40">

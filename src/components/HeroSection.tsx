@@ -22,7 +22,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="relative h-screen w-full overflow-hidden bg-white">
+    <section id="hero" className="relative h-screen w-full overflow-hidden bg-white">
       <div className="absolute inset-0">
         {images.map((src, index) => (
           <div

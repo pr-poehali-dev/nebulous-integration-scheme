@@ -39,7 +39,7 @@ const films = [
 
 export default function FilmographySection() {
   return (
-    <section className="bg-black py-24 md:py-32">
+    <section id="filmography" className="bg-black py-24 md:py-32">
       <div className="container mx-auto px-8 md:px-16">
         <div className="mb-16 max-w-2xl">
           <p className="text-sm uppercase tracking-[0.3em] text-white/40">
