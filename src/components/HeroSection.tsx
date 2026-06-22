@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
 
 const images = [
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-2.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-1.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-4.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-5.jpg',
+  'https://cdn.poehali.dev/projects/a8d2d5c2-c907-4885-ab13-4755fa8161f5/bucket/e2a2134e-f3c7-4398-b2f1-398a6d5cc66c.png',
+  'https://cdn.poehali.dev/projects/a8d2d5c2-c907-4885-ab13-4755fa8161f5/bucket/db9d1c88-0d28-40a1-b8dd-7c3822e92f77.png',
+  'https://cdn.poehali.dev/projects/a8d2d5c2-c907-4885-ab13-4755fa8161f5/bucket/d3bb2326-c360-4e43-aead-30fc267fe4c8.png',
+  'https://cdn.poehali.dev/projects/a8d2d5c2-c907-4885-ab13-4755fa8161f5/bucket/d50f45b5-4c11-499b-9cbb-6454d8f7915e.png',
 ];
 
 export default function HeroSection() {
@@ -55,7 +55,7 @@ export default function HeroSection() {
             >
               <div className="relative h-48 w-48 overflow-hidden rounded-full border-4 border-white shadow-2xl md:h-64 md:w-64">
                 <img
-                  src="https://cdn.poehali.dev/templates/creative-portfolio-ru/portrait.jpg"
+                  src="https://cdn.poehali.dev/projects/a8d2d5c2-c907-4885-ab13-4755fa8161f5/bucket/cb8bb414-e28c-4f1b-ab22-2dd203b8043a.png"
                   alt="Сергей Бодров"
                   className="h-full w-full object-cover"
                 />
